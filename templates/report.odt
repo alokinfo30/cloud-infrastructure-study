@@ -1,0 +1,22 @@
+# Cloud Infrastructure Implementation Report
+
+## Executive Summary
+{d.summary}
+
+## Migration Overview
+- Applications migrated: {d.metrics.applications_migrated}
+- Total cost savings: {d.metrics.cost_savings}
+- Downtime during migration: {d.metrics.downtime_hours}
+
+## Architecture Components
+| Component | Description | Status |
+|-----------|-------------|--------|
+| VPC | Virtual network in AWS | {d.architecture.vpc} |
+| EC2 | Compute instances | {d.architecture.ec2} |
+| RDS | Managed database | {d.architecture.rds} |
+| S3 | Object storage | {d.architecture.s3} |
+
+## Security Implementation
+- IAM Roles: {d.security.iam_roles}
+- Encryption: {d.security.encryption}
+- Compliance: {d.security.compliance}
