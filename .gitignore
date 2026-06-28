@@ -1,0 +1,33 @@
+# ========================================
+# WINDOWS SPECIFIC
+# ========================================
+
+# Windows thumbnail cache
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Windows folder settings
+Desktop.ini
+desktop.ini
+
+# Windows Explorer
+$RECYCLE.BIN/
+
+# Windows Installer
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcut
+*.lnk
+
+# Windows thumbs
+*.~sn
+
+
+# Node modules (these should never be committed!)
+node_modules/
+**/node_modules/
