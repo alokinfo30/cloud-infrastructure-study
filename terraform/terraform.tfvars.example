@@ -1,0 +1,24 @@
+# Terraform Variables Example
+# Copy to dev.tfvars or prod.tfvars and update values
+
+aws_region   = "us-east-1"
+environment  = "dev"
+prefix       = "cloud-study"
+
+# EC2 Configuration
+instance_type = "t2.micro"
+key_name      = "your-key-pair-name"
+
+# Networking
+vpc_cidr      = "10.0.0.0/16"
+public_subnets = ["10.0.1.0/24", "10.0.2.0/24"]
+
+# Database
+db_username   = "admin"
+db_password   = "YourSecurePassword123"
+
+# Tags
+tags = {
+  Project     = "Cloud-Infrastructure-Study"
+  Environment = "dev"
+}

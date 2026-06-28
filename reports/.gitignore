@@ -1,0 +1,11 @@
+# Generated reports
+*.pdf
+*.pptx
+*.docx
+*.html
+*.csv
+*.md
+
+# Keep templates
+!templates/
+!.gitkeep

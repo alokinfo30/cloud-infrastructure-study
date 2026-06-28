@@ -1,0 +1,20 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform variable files (except examples)
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Terraform cache
+.terraform/
+.terraform.lock.hcl
+**/.terraform/*
+**/.terraform.lock.hcl
+
+# CLI configuration
+.terraformrc
+terraform.rc
